@@ -67,5 +67,5 @@ axs[1].set_title('Penalty goals VS Non Penalty goals (1872 to 2024)')  # Add a t
 # Adjust the layout to prevent overlapping of elements
 plt.tight_layout()
 
-# Display the plots
+# Display the plots 
 plt.show()
