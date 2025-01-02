@@ -31,11 +31,11 @@ explode = [0, 0.1]
 fig, axs = plt.subplots(1, 2, figsize=(22,15))
 axs[0].pie(new_list_OwnGoalsData_popn, labels = new_list_OwnGoalsData_check, explode = explode, autopct = '%1.1f%%')
 axs[0].legend(loc = 'lower left')
-axs[0].set_title('Own goals VS scored goals (1876 to 2024)')
+axs[0].set_title('Own goals VS scored goals (1872 to 2024)')
 
 axs[1].pie(new_list_PenaltyData_popn, labels = new_list_PenaltyData_check, explode = explode, autopct = '%1.1f%%')
 axs[1].legend(loc = 'lower right')
-axs[1].set_title('Penalty goals VS Non Penalty goals (1876 to 2024)')
+axs[1].set_title('Penalty goals VS Non Penalty goals (1872 to 2024)')
 
 plt.tight_layout()
 plt.show()
