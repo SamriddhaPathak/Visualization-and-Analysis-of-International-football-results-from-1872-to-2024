@@ -35,7 +35,7 @@ print(new_list_OwnGoalsData_popn)
 # Define labels for the pie chart representing penalty goals vs. non-penalty goals
 new_list_PenaltyData_check = ['Non Penalty goals', 'Penalty goals']
 
-# Create a list to store the count of each label
+# Create a list to store the count of each label 
 new_list_PenaltyData_popn = []
 for items in list_PenaltyData:
     # Append the counts of each type (e.g., non-penalty goals, penalty goals)
