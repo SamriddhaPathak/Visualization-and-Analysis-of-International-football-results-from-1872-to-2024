@@ -5,7 +5,7 @@ import numpy as np  # For numerical operations
 from collections import Counter  # For counting occurrences of elements
 
 # Set a visual style for the plots
-plt.style.use("fivethirtyeight")  
+plt.style.use("fivethirtyeight")   
 
 # Load the dataset containing goal data
 data = pd.read_csv("Data(file_format_CSV)\Goalscorers.csv")
@@ -22,8 +22,8 @@ list_PenaltyData = dict(Counter(Penaltydata))
  
 # Define labels for the pie chart representing own goals vs. scored goals
 new_list_OwnGoalsData_check = ['Scored goals', 'Own goals']
-
-# Create a list to store the count of each label
+ 
+# Create a list to store the count of each label 
 new_list_OwnGoalsData_popn = []
 for items in list_OwnGoalsData:
     # Append the counts of each type (e.g., scored goals, own goals)
