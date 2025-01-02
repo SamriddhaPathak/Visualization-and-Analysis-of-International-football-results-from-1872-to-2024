@@ -19,7 +19,7 @@ Penaltydata = np.array(data["penalty"], dtype=str)
 # Count the occurrences of each unique value in 'own_goal' and 'penalty' columns
 list_OwnGoalsData = dict(Counter(OwnGoalsData))
 list_PenaltyData = dict(Counter(Penaltydata))
-
+ 
 # Define labels for the pie chart representing own goals vs. scored goals
 new_list_OwnGoalsData_check = ['Scored goals', 'Own goals']
 
