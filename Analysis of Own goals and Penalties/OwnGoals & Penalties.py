@@ -55,7 +55,7 @@ axs[0].pie(new_list_OwnGoalsData_popn,
            autopct='%1.1f%%')  # Show percentages
 axs[0].legend(loc='lower left')  # Add a legend in the lower-left corner
 axs[0].set_title('Own goals VS scored goals (1872 to 2024)')  # Add a title to the chart
-
+ 
 # Plot the pie chart for penalty goals vs. non-penalty goals
 axs[1].pie(new_list_PenaltyData_popn,   
            labels=new_list_PenaltyData_check, 
