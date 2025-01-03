@@ -60,7 +60,7 @@ axs[0].set_title('Own goals VS scored goals (1872 to 2024)')  # Add a title to t
 axs[1].pie(new_list_PenaltyData_popn, 
            labels=new_list_PenaltyData_check, 
            explode=explode, 
-           autopct='%1.1f%%')  # Show percentages
+           autopct='%1.1f%%')  # Show percentages 
 axs[1].legend(loc='lower right')  # Add a legend in the lower-right corner
 axs[1].set_title('Penalty goals VS Non Penalty goals (1872 to 2024)')  # Add a title to the chart
 
