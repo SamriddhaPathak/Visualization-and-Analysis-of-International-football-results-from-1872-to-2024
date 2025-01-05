@@ -14,7 +14,7 @@ countries = [item[0] for item in top4_count_noof_hostings_by_countries]
 
 no_of_hostings = [item[1] for item in top4_count_noof_hostings_by_countries]
 
-dft = {
+dft = {   
     'countries': countries,   
     'no_of_hostings': no_of_hostings  
 }
