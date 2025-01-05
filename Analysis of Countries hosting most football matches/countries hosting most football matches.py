@@ -6,7 +6,7 @@ data = pd.read_csv("Data(file_format_CSV)/results.csv")
 
 data_country =  data['country'] 
 
-count_noof_hostings_by_countries = Counter(data_country)
+count_noof_hostings_by_countries = Counter(data_country)    
     
 top4_count_noof_hostings_by_countries = count_noof_hostings_by_countries.most_common(10)
 
