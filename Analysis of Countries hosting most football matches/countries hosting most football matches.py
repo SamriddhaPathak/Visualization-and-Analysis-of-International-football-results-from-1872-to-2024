@@ -24,3 +24,6 @@ df = pd.DataFrame(dft)
 fig = px.bar(df, x = 'countries', y = 'no_of_hostings', color = 'countries', title = "Countries Hosting The Most Number of Football Mathces from 1872 to 2024")
 
 fig.show()    
+
+
+
