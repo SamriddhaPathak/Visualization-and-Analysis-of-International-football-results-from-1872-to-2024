@@ -69,4 +69,3 @@ plt.tight_layout()
 
 # Display the plots
 plt.show()
- 

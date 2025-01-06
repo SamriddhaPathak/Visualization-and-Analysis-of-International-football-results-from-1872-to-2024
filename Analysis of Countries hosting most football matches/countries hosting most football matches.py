@@ -1,6 +1,7 @@
 import plotly.express as px
 import pandas as pd
 from collections import Counter
+import plotly.io as pio
  
 data = pd.read_csv("Data(file_format_CSV)/results.csv")
 
@@ -25,6 +26,9 @@ fig = px.bar(df, x = 'countries', y = 'no_of_hostings', color = 'countries', tit
 
 fig.show()    
 
+
+
+pio.write_html(fig, file='hosting football matches.html', auto_open=False)
 
 
     

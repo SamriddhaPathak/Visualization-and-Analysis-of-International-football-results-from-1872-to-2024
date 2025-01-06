@@ -1,6 +1,7 @@
 import plotly.express as px 
 import pandas as pd 
 from collections import Counter
+import plotly.io as pio
 
 data = pd.read_csv("Data(file_format_CSV)\shootouts.csv")
 
@@ -22,3 +23,5 @@ df = pd.DataFrame(dft)
 fig = px.bar(df, x = 'countries', y = 'no_of_goals', color = 'countries')
 
 fig.show()
+
+pio.write_html(fig, file='Countries willing greatest no of football matches via penalty.html', auto_open=False)
