@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt  # For creating visualizations
 import pandas as pd  # For handling data in tabular format   
 import numpy as np  # For numerical operations
 from collections import Counter  # For counting occurrences of elements
-
 # Set a visual style for the plots
 plt.style.use("fivethirtyeight")   
 
