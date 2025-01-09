@@ -1,0 +1,140 @@
+body {
+    html {
+        scroll-behavior: smooth;
+    }
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    background-color: #121212; /* Dark modern background */
+    color: #e0e0e0; /* Light gray for better readability */
+    display: flex;
+}
+
+.nav {
+    width: 10%;
+    height: 300vh;
+    background: linear-gradient(180deg, #1c1c1c, #333); /* Gradient for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.8); /* Subtle modern shadow */
+    border-right: 1px solid #444; /* Clean border */
+}
+.nav a.active {
+    background-color: #00cec9; /* Highlight color for the active tab */
+    color: #121212; /* Contrast text color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for emphasis */
+    transform: scale(1.1); /* Slightly enlarge the active tab */
+}
+
+.nav a {
+    color: #e0e0e0; /* Light gray for consistency */
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 15px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05); /* Slight background for better visibility */
+    transition: background-color 0.5s ease-out, color 0.5s ease-out, transform 0.5s ease-out, box-shadow 0.5s ease-out; /* Smooth transitions */
+}
+
+.nav a:hover {
+    background-color: #444; /* Subtle hover background */
+    color: #00cec9; /* Modern teal hover color */
+    transform: scale(1.05); /* Slight scaling effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Hover shadow for depth */
+}
+
+.nav .logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav .logo img {
+    width: 80px;
+    height: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Depth for the logo */
+    transition: box-shadow 0.5s ease-out, transform 0.5s ease-out; /* Smooth logo interactions */
+}
+
+.nav .logo img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8); /* Hover depth */
+}
+
+.nav .logo hr {
+    width: 70%;
+    border: 0;
+    border-top: px solid #555; /* Softer divider */
+    margin-top: 10px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #121212; /* Match body background */
+}
+
+.top-bar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    background: #1e1e1e; /* Slightly brighter for distinction */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Depth */
+    border: 1px solid #444; /* Subtle border */
+    transition: background 0.5s ease-out, transform 0.5s ease-out, box-shadow 0.5s ease-out; /* Smooth interactions */
+}
+
+.top-bar:hover {
+    background: #333; /* Darker hover background */
+    transform: translateY(-5px); /* Hover lift effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6); /* Hover shadow */
+}
+
+.top-bar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 2px solid #555; /* Subtle border for the image */
+    transition: border-color 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition */
+}
+
+.top-bar img:hover {
+    border-color: #00cec9; /* Highlight image on hover */
+    transform: scale(1.1); /* Slight zoom */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #00cec9; /* Teal for modern branding */
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for focus */
+    letter-spacing: 1px; /* Slightly spaced out for elegance */
+    transition: color 0.5s ease-out, text-shadow 0.5s ease-out; /* Smooth heading interaction */
+}
+
+h1:hover {
+    color: #81ecec; /* Lighter teal on hover */
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* More pronounced shadow */
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #b2bec3; /* Softer gray for text */
+    line-height: 1.6; /* Better readability */
+    max-width: 80%; /* Contain text for cleaner layout */
+    transition: color 0.5s ease-out; /* Smooth color transitions */
+}
+
+p:hover {
+    color: #dfe6e9; /* Slightly lighter gray on hover */
+}
