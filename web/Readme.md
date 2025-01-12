@@ -1,5 +1,4 @@
 
-
 ---
 
 # **Visualization and Analysis of International Football Results (1872 - 2024)** ⚽📊
