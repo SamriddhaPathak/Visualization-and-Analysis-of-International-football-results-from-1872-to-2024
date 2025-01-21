@@ -28,4 +28,4 @@ axs[1].barh(countries, scores)
 axs[1].set_xlabel('No of Goals')
 axs[1].set_title('Top 4 Goal scoring Countries of all Time\nBar Chart')
 
-plt.show() 
+plt.show()
